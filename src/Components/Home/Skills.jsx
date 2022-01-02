@@ -14,7 +14,7 @@ function Skills() {
     return ( 
       <Col xs={6} sm={6} md={3} lg={3} key={item.title} className="text-center">
         { item.icon }
-        <Row><p className='text-center pt-3'>{ item.title }</p></Row>
+        <Row><h6 className='text-center pt-3'>{ item.title }</h6></Row>
       </Col>
     );
   });

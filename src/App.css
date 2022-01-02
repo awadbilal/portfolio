@@ -40,6 +40,14 @@ h4 {
   line-height: 3.75rem !important;
 }
 
+/* Icons text */
+h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem !important;
+  line-height: 2rem !important;
+}
+
 /* Copyright */
 h5 {
   font-style: normal;
