@@ -1,0 +1,22 @@
+a {
+  text-decoration: none !important;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.8125rem;
+  text-align: left;
+  color: #000000 !important;
+  margin-right: 1rem;
+}
+
+.languageButton {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 500;
+  background-color: #FF6464;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+/* Hero Section */
+@media only screen and (max-width: 1199px) {
+  .heroSection .row {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .heroSection {
+    margin-top: 0 !important;
+    flex-direction: column-reverse !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .heroSection .imageDiv {
+    margin-bottom: 2rem !important;
+  }
+}
+
+.heroSection {
+  margin-top: 10rem;
+}
+.heroSection .downloadRes,
+.heroSection .downloadRes:hover {
+  padding: 1rem 2rem;
+  background-color: #FF6464;
+  border-radius: 2px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #FFFFFF !important;
+  text-decoration: none;
+}
+.heroSection .imageDiv {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroSection .imageDiv img {
+  width: 15rem;
+  margin-top: 0;
+  padding: 0;
+}
