@@ -6,7 +6,7 @@
     align-items: center;
   }
   .heroSection {
-    margin-top: 0 !important;
+    padding-top: 0 !important;
     flex-direction: column-reverse !important;
     justify-content: center !important;
     align-items: center !important;
@@ -14,13 +14,18 @@
   .heroSection .imageDiv {
     margin-bottom: 2rem !important;
   }
+  .heroSection .downloadResDiv {
+    text-align: center;
+    align-self: center;
+  }
 }
 
 .heroSection {
-  margin-top: 10rem;
+  padding-top: 7rem;
+  margin-bottom: 5rem;
 }
-.heroSection .downloadRes,
-.heroSection .downloadRes:hover {
+.heroSection .downloadResDiv .downloadRes,
+.heroSection .downloadResDiv .downloadRes:hover {
   padding: 1rem 2rem;
   background-color: #FF6464;
   border-radius: 2px;
@@ -42,4 +47,32 @@
   width: 15rem;
   margin-top: 0;
   padding: 0;
+}
+
+/* Skills Sections */
+.skillsSection {
+  margin: 0;
+  padding: 0;
+  background-color: #EDF7FA;
+}
+.skillsSection .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+}
+.skillsSection .title p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.4375rem;
+  text-align: right;
+  color: #00A8CC;
+  cursor: pointer;
+}
+.skillsSection .icon {
+  width: 7rem;
+  align-self: center;
 }

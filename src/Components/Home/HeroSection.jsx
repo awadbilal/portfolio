@@ -18,7 +18,7 @@ const HeroSection = () => {
           <br />
           <p data-aos="fade-right">{t('home.cover')}</p>
           <br /><br />
-          <div className='m-0 p-0' data-aos="fade-right">
+          <div className='m-0 p-0 downloadResDiv' data-aos="fade-right">
             <a className="downloadRes" href={CV} download="Bilal Avvad - CV">
               {t('home.downloadRes')}
             </a>
@@ -30,7 +30,6 @@ const HeroSection = () => {
           </div>
         </Col>
       </Row>
-
     </Container>
   );
 }
