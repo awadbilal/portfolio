@@ -65,14 +65,16 @@
   width: 100%;
 }
 .skillsSection .title p,
-.featuredWork .title p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.4375rem;
-  text-align: right;
-  color: #00A8CC;
+.featuredWork .title p,
+.featuredWork .title a {
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 1rem !important;
+  line-height: 1.4375rem !important;
+  text-align: right !important;
+  color: #00A8CC !important;
   cursor: pointer;
+  text-decoration: none !important; 
 }
 .skillsSection .icon {
   width: 7rem;

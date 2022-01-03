@@ -7,9 +7,15 @@ import NavBar from "./Components/NavBar/Navbar";
 import Footer from './Components/Footer/Footer';
 
 const App = () => {
+
   useEffect(() => {
-    Aos.init({ duration: 3000 });
+    Aos.init({
+      startEvent: 'DOMContentLoaded', 
+      duration: 3000,
+      once: true
+    });
   }, []);
+
   return (
     <>
       <NavBar />
