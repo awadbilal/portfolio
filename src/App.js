@@ -6,6 +6,8 @@ import NavBar from "./Components/NavBar/Navbar";
 import HomePage from "./Containers/HomePage";
 import WorksPage from "./Containers/WorksPage";
 import Footer from './Components/Footer/Footer';
+import Data from './Components/Work/workList';
+import SinglePage from "./Components/Work/SinglePage";
 
 const App = () => {
 
@@ -21,8 +23,15 @@ const App = () => {
     <>
       <NavBar />
       <Routes>
-        <Route exact path="/" element={<HomePage />}></Route>
-        <Route path="/works" element={<WorksPage />}></Route>
+        <Route exact path="/" element={<HomePage />} />
+        <Route path="/works" element={<WorksPage />} />
+        {
+          Data.map((item) => {
+            return (
+              <Route path={`/${item.title.replace(/\s/g, '').toLowerCase()}`} element={<SinglePage info={item} />} />
+            )
+          })
+        }
       </Routes>
       <Footer />
     </>

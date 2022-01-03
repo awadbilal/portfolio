@@ -25,7 +25,6 @@ function FeaturedWork() {
       {
         Data.slice(0, 3).map((item) => <WorkCard info={item} />)
       }
-      {/* <WorkCard /> */}
     </Container>
   );
 }

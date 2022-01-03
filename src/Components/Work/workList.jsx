@@ -1,13 +1,22 @@
 import LL from "../../locales/images/LL.png";
+import LLGIF from "../../locales/images/LLGIF.gif";
 import Microfon from "../../locales/images/Microfon.png";
+import MicrofonGIF from "../../locales/images/MicrofonGIF.gif";
 import LLD from "../../locales/images/LLDD.png";
 import LLL from "../../locales/images/LLDL.png";
+import LLDGIF from "../../locales/images/LLDGIF.gif";
 import SS from "../../locales/images/SS.png";
+import SSGIF from "../../locales/images/SSGIF.gif";
 import BAP from "../../locales/images/BAP.png";
+import BAPGIF from "../../locales/images/BAPGIF.gif";
 import PRM from "../../locales/images/prm.png";
+import PRMGIF from "../../locales/images/PRMGIF.gif";
 import IMDBA from "../../locales/images/imdba.png";
+import IMDBAGIF from "../../locales/images/IMDBAGIF.gif";
 import ML from "../../locales/images/ML.png";
+import MLGIF from "../../locales/images/MLGGIF.gif";
 import BS from "../../locales/images/BS.png";
+import BSGIF from "../../locales/images/BSGIF.gif";
 
 const workList = [
   {
@@ -18,7 +27,7 @@ const workList = [
     image: LL,
     description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
     imageGroup: [LLD, LLL],
-    gif: '',
+    gif: LLGIF,
     link: 'http://luxurylng.com/'
   },
   {
@@ -29,7 +38,7 @@ const workList = [
     image: Microfon,
     description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
     imageGroup: [LLD, LLL],
-    gif: '',
+    gif: MicrofonGIF,
     link: 'https://microfon.co/'
   },
   {
@@ -40,7 +49,7 @@ const workList = [
     image: LLD,
     description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
     imageGroup: [LLD, LLL],
-    gif: '',
+    gif: LLDGIF,
     link: 'https://www.figma.com/file/QREJhwEqxuhLPBpC7qqJfz/Luxury-Lingerie?node-id=38%3A13'
   },
   {
@@ -51,7 +60,7 @@ const workList = [
     image: SS,
     description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
     imageGroup: [],
-    gif: '',
+    gif: SSGIF,
     link: 'https://seasaver.netlify.app/'
   },
   {
@@ -62,7 +71,7 @@ const workList = [
     image: BAP,
     description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
     imageGroup: [],
-    gif: '',
+    gif: BAPGIF,
     link: 'https://bilalavvad.netlify.app/'
   },
   {
@@ -73,7 +82,7 @@ const workList = [
     image: PRM,
     description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
     imageGroup: [],
-    gif: '',
+    gif: PRMGIF,
     link: 'https://prm.netlify.app/'
   },
   {
@@ -84,7 +93,7 @@ const workList = [
     image: IMDBA,
     description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
     imageGroup: [],
-    gif: '',
+    gif: IMDBAGIF,
     link: 'https://imoviedba.netlify.app/'
   },
   {
@@ -95,7 +104,7 @@ const workList = [
     image: ML,
     description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
     imageGroup: [],
-    gif: '',
+    gif: MLGIF,
     link: 'https://madlibsgame.netlify.app/'
   },
   {
@@ -106,7 +115,7 @@ const workList = [
     image: BS,
     description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
     imageGroup: [],
-    gif: '',
+    gif: BSGIF,
     link: 'https://bootstrapcss.netlify.app/'
   }
 ];
