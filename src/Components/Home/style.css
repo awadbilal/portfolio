@@ -55,7 +55,8 @@
   padding: 0;
   background-color: #EDF7FA;
 }
-.skillsSection .title {
+.skillsSection .title
+.featuredWork .title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -63,7 +64,8 @@
   align-items: center;
   width: 100%;
 }
-.skillsSection .title p {
+.skillsSection .title p,
+.featuredWork .title p {
   font-style: normal;
   font-weight: normal;
   font-size: 1rem;
@@ -75,4 +77,10 @@
 .skillsSection .icon {
   width: 7rem;
   align-self: center;
+}
+
+/* Work Section */ 
+.featuredWork {
+  margin: 0;
+  padding: 0;
 }
