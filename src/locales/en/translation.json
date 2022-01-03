@@ -16,5 +16,8 @@
     "hide": "hide",
     "featured": "Featured Works"
   },
+  "work": {
+    "header": "Works"
+  },
   "copyright": "Copyright ©2022 All rights reserved"
 }

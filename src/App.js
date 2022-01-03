@@ -2,8 +2,9 @@ import React, { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Aos from "aos";
 import "./App.css";
-import HomePage from "./Containers/HomePage";
 import NavBar from "./Components/NavBar/Navbar";
+import HomePage from "./Containers/HomePage";
+import WorksPage from "./Containers/WorksPage";
 import Footer from './Components/Footer/Footer';
 
 const App = () => {
@@ -20,7 +21,8 @@ const App = () => {
     <>
       <NavBar />
       <Routes>
-        <Route path="/" element={<HomePage />}></Route>
+        <Route exact path="/" element={<HomePage />}></Route>
+        <Route path="/works" element={<WorksPage />}></Route>
       </Routes>
       <Footer />
     </>
