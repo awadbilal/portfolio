@@ -10,7 +10,14 @@
     "name": "Hi, I am Bilal",
     "title": "Front-End Web Developer",
     "cover": "I'm a Front-end web developer passionate about web development and the creativity that comes out of it, interested in continuous self-developing, looking forward to improve my skills and expanding my knowledge. With enough knowledge, i am hoping that one day i will become a Cyber-security engineer.",
-    "downloadRes": "Download Resume"
+    "downloadRes": "Download Resume",
+    "skills": "Skills & Knowledge",
+    "view": "View all",
+    "hide": "hide",
+    "featured": "Featured Works"
   },
-  "copyright": "Copyright ©2021 All rights reserved"
+  "work": {
+    "header": "Works"
+  },
+  "copyright": "Copyright ©2022 All rights reserved"
 }

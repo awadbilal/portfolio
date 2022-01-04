@@ -15,7 +15,7 @@ function NavBar() {
 
   return (
     <>
-      <Navbar className='navBarSection' collapseOnSelect expand="lg" sticky="top">
+      <Navbar className='navBarSection mt-3' collapseOnSelect expand="lg">
         <Container>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
