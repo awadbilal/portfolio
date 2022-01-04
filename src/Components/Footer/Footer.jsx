@@ -39,7 +39,9 @@ function Footer() {
         </Container>
       </Navbar>
       <Row>
-        <h5>{t("copyright")}</h5>
+        <h5>
+          {t("copyright")}
+        </h5>
       </Row>
     </div>
   );
