@@ -37,10 +37,10 @@ function Skills() {
     <div className="skillsSection pt-3 pb-4">
       <Container>
         <Row className="title row-eq-height align-items-center" md={12}>
-          <Col xs={9} sm={9} md={9} lg={9}>
+          <Col xs={9} sm={9} md={8} lg={8}>
             <h4 data-aos="fade-right">{t("home.skills")}</h4>
           </Col>
-          <Col xs={3} sm={3} md={3} lg={3}>
+          <Col xs={3} sm={3} md={4} lg={4}>
             <p onClick={handleShow} data-aos="fade-left">
               {shown ? t("home.hide") : t("home.view")}
             </p>

@@ -5,12 +5,14 @@ import "./style.css";
 import { useTranslation } from "react-i18next";
 
 function NavBar() {
-  const { t, i18n } = useTranslation();
+  
+  const { t } = useTranslation();
+  // const { t, i18n } = useTranslation();
 
-  const changeLanguage = () => {
-    if (i18n.language === "en") i18n.changeLanguage("ar");
-    else i18n.changeLanguage("en");
-  };
+  // const changeLanguage = () => {
+  //   if (i18n.language === "en") i18n.changeLanguage("ar");
+  //   else i18n.changeLanguage("en");
+  // };
 
   return (
     <>
@@ -36,9 +38,9 @@ function NavBar() {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <div className="languageButton" onClick={changeLanguage}>
+          {/* <div className="languageButton" onClick={changeLanguage}>
             {i18n.language === "en" ? "AR" : "EN"}
-          </div>
+          </div> */}
         </Container>
       </Navbar>
     </>

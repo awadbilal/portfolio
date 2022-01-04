@@ -7,12 +7,12 @@ function SinglePage({ info }) {
     <Container className="singlePage">
       <Row className="title row-eq-height align-items-center pt-4 pb-2" md={12}>
         <Col xs={9} sm={9} md={9} lg={9}>
-          <h1 data-aos="fadeLeft" data-aos-delay="50">
+          <h1 data-aos="fade-right">
             {info.title}
           </h1>
         </Col>
         <Col xs={3} sm={3} md={3} lg={3}>
-          <p data-aos="fadeRight" data-aos-delay="50">
+          <p data-aos="fade-left">
             <a href={info.link} target="_blank" rel="noreferrer">
               Visit Webpage
             </a>
@@ -21,21 +21,21 @@ function SinglePage({ info }) {
       </Row>
       <Row>
         <h6 className="pt-2 pb-3">
-          <span className="date" data-aos="fadeLeft" data-aos-delay="50">
+          <span className="date" data-aos="fade-right">
             {info.date}
           </span>
-          <span className="languages" data-aos="fadeLeft" data-aos-delay="50">
+          <span className="languages" data-aos="fade-right">
             {info.languages}
           </span>
         </h6>
       </Row>
       <Row className="pt-2 pb-4">
-        <p data-aos="fadeLeft" data-aos-delay="50">
+        <p data-aos="fade-right">
           {info.description}
         </p>
       </Row>
       <Row>
-        <img data-aos="fadeDown" src={info.gif} alt={info.title} />
+        <img data-aos="fade-up" src={info.gif} alt={info.title} />
       </Row>
     </Container>
   );
