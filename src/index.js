@@ -11,7 +11,7 @@ import "./i18n";
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename="/">
+    <HashRouter basename='/'>
       <ScrollToTop />
       <App />
     </HashRouter>
