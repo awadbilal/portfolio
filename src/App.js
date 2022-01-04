@@ -23,12 +23,12 @@ const App = () => {
     <>
       <NavBar />
       <Routes>
-        <Route exact path="/" element={<HomePage />} />
-        <Route path="/works" element={<WorksPage />} />
+        <Route exact path="/portfolio/" element={<HomePage />} />
+        <Route path="/portfolio/works" element={<WorksPage />} />
         {
           Data.map((item) => {
             return (
-              <Route path={`/${item.title.replace(/\s/g, '').toLowerCase()}`} element={<SinglePage info={item} />} />
+              <Route path={`/portfolio/${item.title.replace(/\s/g, '').toLowerCase()}`} element={<SinglePage info={item} />} />
             )
           })
         }
