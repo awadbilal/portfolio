@@ -1,7 +1,7 @@
-import React from 'react';
-import HeroSection from '../Components/Home/HeroSection';
-import Skills from '../Components/Home/Skills';
-import FeaturedWork from '../Components/Home/FeaturedWork';
+import React from "react";
+import HeroSection from "../Components/Home/HeroSection";
+import Skills from "../Components/Home/Skills";
+import FeaturedWork from "../Components/Home/FeaturedWork";
 
 const HomePage = () => {
   return (
@@ -11,6 +11,6 @@ const HomePage = () => {
       <FeaturedWork />
     </>
   );
-}
+};
 
 export default HomePage;

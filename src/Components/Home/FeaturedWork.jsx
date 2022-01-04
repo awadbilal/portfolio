@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import WorkCard from "../Work/WorkCard";
 import { useTranslation } from "react-i18next";
-import Data from '../Work/workList';
+import Data from "../Work/workList";
 import "./style.css";
 
 function FeaturedWork() {
@@ -22,9 +22,9 @@ function FeaturedWork() {
           </p>
         </Col>
       </Row>
-      {
-        Data.slice(0, 3).map((item) => <WorkCard info={item} />)
-      }
+      {Data.slice(0, 3).map((item) => (
+        <WorkCard info={item} />
+      ))}
     </Container>
   );
 }

@@ -1,5 +1,5 @@
-import React from 'react';
-import WorkContent from '../Components/Work/WorkContent';
+import React from "react";
+import WorkContent from "../Components/Work/WorkContent";
 
 function WorksPage() {
   return (
