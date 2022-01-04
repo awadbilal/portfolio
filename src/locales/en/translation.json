@@ -19,5 +19,9 @@
   "work": {
     "header": "Works"
   },
+  "education": {
+    "header": "Education",
+    "completed": "Courses Completed"
+  },
   "copyright": "Copyright ©2022 All rights reserved"
 }

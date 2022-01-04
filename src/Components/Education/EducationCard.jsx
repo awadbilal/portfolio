@@ -4,13 +4,13 @@ import { BsArrowRightShort } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import "./style.css";
 
-function WorkCard({ info }) {
+function EducationCard({ info }) {
   return (
-    <Row className="row-eq-height workCard" data-aos="fade-up">
-      <Col xs={12} sm={12} md={4} lg={4}>
+    <Row className="row-eq-height educationCard" data-aos="fade-up">
+      <Col xs={12} sm={12} md={3} lg={3}>
         <img src={info.image} alt={info.title} />
       </Col>
-      <Col xs={12} sm={12} md={8} lg={8}>
+      <Col xs={12} sm={12} md={9} lg={9}>
         <Row className="title row-eq-height align-items-center pb-1" md={12}>
           <Col xs={9} sm={9} md={9} lg={9}>
             <h2 data-aos="fadeLeft" data-aos-delay="50">
@@ -33,8 +33,10 @@ function WorkCard({ info }) {
           </Col>
         </Row>
         <h6 className="pt-2 pb-3">
-          <span className="date">{info.date}</span>
-          <span className="languages">{info.languages}</span>
+          <span className="date">{info.duration}</span>
+          <span className="languages">
+            {info.beginDate} <BsArrowRightShort size="2rem" /> {info.endDate}
+          </span>
         </h6>
         <p>{info.description}</p>
       </Col>
@@ -43,4 +45,4 @@ function WorkCard({ info }) {
   );
 }
 
-export default WorkCard;
+export default EducationCard;

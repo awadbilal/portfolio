@@ -9,14 +9,19 @@ a {
   color: #000000 !important;
   margin-right: 1rem;
 }
-
 .languageButton {
   font-family: Heebo;
   font-style: normal;
   font-weight: 500;
   background-color: #FF6464;
   color: #ffffff;
-  padding: 1rem;
+  padding: 1rem 1.1rem;
   border-radius: 50%;
   cursor: pointer;
+}
+.activated {
+  color: #FF6464 !important;
+}
+.deactivated {
+  color: #000000 !important;
 }

@@ -9,7 +9,7 @@ const HeroSection = () => {
   const { t } = useTranslation();
 
   return (
-    <Container className="heroSection">
+    <Container className="heroSection pt-5">
       <Row>
         <Col md={7}>
           <h1 data-aos="fade-right">{t("home.name")}</h1>

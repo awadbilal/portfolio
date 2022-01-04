@@ -11,12 +11,12 @@ function FeaturedWork() {
   return (
     <Container className="featuredWork pt-3">
       <Row className="title row-eq-height align-items-center pb-3" md={12}>
-        <Col xs={9} sm={9} md={9} lg={9}>
+        <Col xs={9} sm={9} md={8} lg={8}>
           <h4 data-aos="fadeLeft" data-aos-delay="100">
             {t("home.featured")}
           </h4>
         </Col>
-        <Col xs={3} sm={3} md={3} lg={3}>
+        <Col xs={3} sm={3} md={4} lg={4}>
           <p data-aos="fadeRight" data-aos-delay="100">
             <a href="/works">{t("home.view")}</a>
           </p>
