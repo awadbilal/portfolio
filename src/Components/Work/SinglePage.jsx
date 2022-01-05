@@ -7,9 +7,7 @@ function SinglePage({ info }) {
     <Container className="singlePage">
       <Row className="title row-eq-height align-items-center pt-4 pb-2" md={12}>
         <Col xs={9} sm={9} md={9} lg={9}>
-          <h1 data-aos="fade-right">
-            {info.title}
-          </h1>
+          <h1 data-aos="fade-right">{info.title}</h1>
         </Col>
         <Col xs={3} sm={3} md={3} lg={3}>
           <p data-aos="fade-left">
@@ -30,9 +28,7 @@ function SinglePage({ info }) {
         </h6>
       </Row>
       <Row className="pt-2 pb-4">
-        <p data-aos="fade-right">
-          {info.description}
-        </p>
+        <p data-aos="fade-right">{info.description}</p>
       </Row>
       <Row>
         <img data-aos="fade-up" src={info.gif} alt={info.title} />

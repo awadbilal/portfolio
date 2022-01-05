@@ -1,0 +1,54 @@
+/* Socials Part */
+.contactPage .header {
+  border-bottom: 3px solid#FF6464;
+  border-top: 3px solid#FF6464;
+  border-radius: 10px;
+  text-align: center;
+}
+.contactPage .icon {
+  color: #FF6464;
+  margin-right: 2rem;
+}
+.contactPage a{
+  text-decoration: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: #FF6464;
+}
+
+/* Form Submit Button */
+.submitButton .sti_container {
+  position: relative;
+}
+.submitButton .btn {
+  position: relative;
+  display: inline-block;
+  background-color: #FF6464;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 25px;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+  width: fit-content;
+}
+.submitButton .btn .btn-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem !important;
+  max-width: 0;
+  display: inline-block;
+  -webkit-transition: color .25s 1.5s, max-width 2s;
+  transition: color .25s 1.5s, max-width 2s;
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #ffffff;
+}
+.submitButton .btn:hover .btn-text {
+  max-width: 18.75rem;
+  color: white;
+}

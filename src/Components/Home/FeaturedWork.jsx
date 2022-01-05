@@ -4,6 +4,7 @@ import WorkCard from "../Work/WorkCard";
 import { useTranslation } from "react-i18next";
 import Data from "../Work/workList";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 function FeaturedWork() {
   const { t } = useTranslation();
@@ -18,7 +19,7 @@ function FeaturedWork() {
         </Col>
         <Col xs={3} sm={3} md={4} lg={4}>
           <p data-aos="fadeRight" data-aos-delay="100">
-            <a href="/works">{t("home.view")}</a>
+            <Link to="/works">{t("home.view")}</Link>
           </p>
         </Col>
       </Row>
