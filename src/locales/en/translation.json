@@ -17,7 +17,9 @@
     "featured": "Featured Works"
   },
   "work": {
-    "header": "Works"
+    "header": "Works",
+    "functionalities": "Desired Functionalities",
+    "technologies": "Technologies & Methods"
   },
   "education": {
     "header": "Education",
