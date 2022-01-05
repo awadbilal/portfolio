@@ -28,7 +28,9 @@ function EducationSinglePage({ info }) {
         </p>
       </Row>
       <Row>
-        <h4>{t("education.completed")}</h4>
+        <h4 data-aos="fade-right" data-aos-delay="50">
+          {t("education.completed")}
+        </h4>
       </Row>
       <Row className="pt-2 pb-4">
         {info.courses.map((item) => {

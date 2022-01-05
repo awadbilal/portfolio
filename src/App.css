@@ -92,9 +92,7 @@ p {
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
 }
-.underline:hover:after,
-.underline:focus:after,
-.underline:active:after {
+.underline:hover:after { 
   left: 0;
   right: auto;
   width: 100%;

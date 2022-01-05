@@ -19,9 +19,6 @@ a {
   border-radius: 50%;
   cursor: pointer;
 }
-.activated {
+.active {
   color: #FF6464 !important;
-}
-.deactivated {
-  color: #000000 !important;
 }
