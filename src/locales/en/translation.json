@@ -23,5 +23,27 @@
     "header": "Education",
     "completed": "Courses Completed"
   },
+  "contact": {
+    "header": "Contact",
+    "name": "Bilal Avvad",
+    "mail": "awadbilal99@gmail.com",
+    "phone": "+90 531 581 50 31",
+    "whatsapp": "WhatsApp",
+    "linkedin": "Linkedin",
+    "github": "Github",
+    "instagram": "@AwadBilal"
+  },
+  "form": {
+    "name": "Name Surname",
+    "nameph": "e.g. Bilal Avvad",
+    "email": "E-mail / G-mail",
+    "emailph": "e.g. awadbilal99@gmail.com",
+    "number": "Phone Number",
+    "numberph": "e.g. +905315815031",
+    "numberctrl": "Please be noted that you number will not be shared with anyone else.",
+    "message": "Message",
+    "messageph": "e.g. Hello, i have a job opportunity, may we schedule a meeting?",
+    "send": "Send Message"
+  },
   "copyright": "Copyright ©2022 All rights reserved"
 }

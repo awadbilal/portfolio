@@ -5,7 +5,6 @@ import "./style.css";
 import { useTranslation } from "react-i18next";
 
 function NavBar() {
-  
   const { t } = useTranslation();
   // const { t, i18n } = useTranslation();
 
@@ -22,19 +21,19 @@ function NavBar() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto pt-3 pb-3">
               <Nav.Link eventKey={1}>
-                <Link to="/">{t("nav.home")}</Link>
+                <Link to="/" className="underline">{t("nav.home")}</Link>
               </Nav.Link>
               <NavDropdown.Divider />
               <Nav.Link eventKey={2}>
-                <Link to="/works">{t("nav.works")}</Link>
+                <Link to="/works" className="underline">{t("nav.works")}</Link>
               </Nav.Link>
               <NavDropdown.Divider />
               <Nav.Link eventKey={3}>
-                <Link to="/education">{t("nav.education")}</Link>
+                <Link to="/education" className="underline">{t("nav.education")}</Link>
               </Nav.Link>
               <NavDropdown.Divider />
               <Nav.Link eventKey={4}>
-                <Link to="/contact">{t("nav.contact")}</Link>
+                <Link to="/contact" className="underline">{t("nav.contact")}</Link>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

@@ -1,3 +1,4 @@
+/* Education Card */
 .educationCard {
   justify-content: center;
 }
@@ -30,4 +31,49 @@
 .educationCard .cardEndLine {
   width: 98%;
   border: 1px solid #E0E0E0;
+}
+
+/* Single Page */
+.singlePage img {
+  max-width: inherit;
+  width: 100%;
+}
+.singlePage h6 {
+  display: flex;
+  align-items: center;
+}
+.singlePage .date {
+  font-style: normal;
+  font-weight: 900;
+  color: #FFFFFF;
+  background-color: #FF7C7C;
+  padding: 0.2rem 1rem 0.15rem 1rem;
+  margin-right: 1.5rem;
+  border-radius: 1rem;
+}
+.singlePage .languages {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.8125rem;
+  color: #21243D;
+}
+.singlePage .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+}
+.singlePage .title p,
+.singlePage .title a{
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 1rem !important;
+  line-height: 1.4375rem !important;
+  text-align: right !important;
+  color: #FF7C7C !important;
+  cursor: pointer;
+  text-decoration: none !important; 
 }
