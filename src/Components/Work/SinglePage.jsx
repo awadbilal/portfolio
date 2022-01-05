@@ -38,9 +38,9 @@ function SinglePage({ info }) {
         <h4 data-aos="fade-right">{t("work.functionalities")}</h4>
       </Row>
       <Row className="pt-2 pb-4">
-        {info.functionalities.map((item) => {
+        {info.functionalities.map((item, i) => {
           return (
-            <Col xs={12} sm={12} md={6} lg={4} data-aos="fade-up">
+            <Col xs={12} sm={12} md={6} lg={4} data-aos="fade-up" key={`fun` + i}>
               <p>
                 <BsArrowReturnRight size="1.2rem" /> {item}
               </p>
@@ -52,9 +52,9 @@ function SinglePage({ info }) {
         <h4 data-aos="fade-right">{t("work.technologies")}</h4>
       </Row>
       <Row className="pt-2 pb-4">
-        {info.technologies.map((item) => {
+        {info.technologies.map((item, i) => {
           return (
-            <Col xs={12} sm={12} md={6} lg={4} data-aos="fade-up">
+            <Col xs={12} sm={12} md={6} lg={4} data-aos="fade-up" key={`tech` + i}>
               <p>
                 <BsArrowReturnRight size="1.2rem" /> {item}
               </p>
@@ -75,6 +75,7 @@ function SinglePage({ info }) {
                 md={12}
                 lg={12}
                 className={i === info.imageGroup.length - 2 ? "pb-5" : ""}
+                key={`extraImage` + i}
               >
                 <img data-aos="fade-up" src={item} alt={item} />
               </Col>

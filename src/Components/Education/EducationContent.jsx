@@ -13,7 +13,7 @@ function EducationContent() {
         <h1 data-aos="fade-right">{t("education.header")}</h1>
       </Row>
       {Data.map((item) => (
-        <EducationCard info={item} />
+        <EducationCard info={item} key={item.title} />
       ))}
     </Container>
   );

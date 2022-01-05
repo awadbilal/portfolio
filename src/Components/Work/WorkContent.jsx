@@ -13,7 +13,7 @@ function WorkContent() {
         <h1 data-aos="fade-right">{t("work.header")}</h1>
       </Row>
       {Data.map((item) => (
-        <WorkCard info={item} />
+        <WorkCard info={item} key={item.title} />
       ))}
     </Container>
   );
