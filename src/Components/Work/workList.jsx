@@ -1,3 +1,5 @@
+import PORT from "../../locales/images/PORT.png";
+import PORTGIF from "../../locales/images/PORTGIF.gif";
 import LL from "../../locales/images/LL.png";
 import LLGIF from "../../locales/images/LLGIF.gif";
 import Microfon from "../../locales/images/Microfon.png";
@@ -17,14 +19,13 @@ import ML from "../../locales/images/ML.png";
 import MLGIF from "../../locales/images/MLGGIF.gif";
 import BS from "../../locales/images/BS.png";
 import BSGIF from "../../locales/images/BSGIF.gif";
-import PORGIF from "../../locales/images/PORTGIF.gif";
 
 const workList = [
   {
     title: 'Personal Portfolio',
     date: '01/2022',
     languages: "React / JS / HTML5 / CSS3 / Figma",
-    image: Microfon,
+    image: PORT,
     description: "Portfolio website, designed and inspired after i have seen my colleagues portfolios, as a challenge to myself i started developing this application in January 1st, 2022. Before developing this project i created an initial design to help me visualize the final outcome, and i am glad about that because now i am satisfied with the final outcome, also it increased my experience a bit, so its a win-win situation. Hope you enjoy your tour!",
     functionalities: [
       "Responsive design",
@@ -47,7 +48,7 @@ const workList = [
       "React EmailJs"
     ],
     imageGroup: [],
-    gif: PORGIF,
+    gif: PORTGIF,
     link: 'https://awadbilal.github.io/portfolio/'
   },
   {
@@ -81,7 +82,7 @@ const workList = [
       "Popup maker",
       "Under construction"
     ],
-    imageGroup: [LLD, LLL],
+    imageGroup: [LLD],
     gif: LLGIF,
     link: 'http://luxurylng.com/'
   },
