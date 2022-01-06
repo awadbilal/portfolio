@@ -17,7 +17,7 @@ import ML from "../../locales/images/ML.png";
 import MLGIF from "../../locales/images/MLGGIF.gif";
 import BS from "../../locales/images/BS.png";
 import BSGIF from "../../locales/images/BSGIF.gif";
-import PORGIF from "../../locales/images/PORGIF.gif";
+import PORGIF from "../../locales/images/PORTGIF.gif";
 
 const workList = [
   {
