@@ -1,8 +1,9 @@
 # Bilal Avvad Portfolio
 
-This project purpose is to showcase my works in an elegant way, as well as my education certificates, my CV to be downloaded, and the ability to contact me directly using a simple form.
+This project purpose is to showcase my works in an elegant way, as well as my education certificates, my CV to be downloaded, and the ability to contact me directly using a simple form. This website is an upgrade from what i have previously conducted while i was conducting my studies in the bootcamp of front-end web development with Re:Coded
 
-[Visit portfolio website](https://awadbilal.github.io/portfolio/)
+#### [Visit old portfolio website](https://bilalavvad.netlify.app/)
+#### [Visit this updated portfolio website](https://awadbilal.github.io/portfolio/)
 
 ## Preview
 ![Bilal Avvad portfolio](https://github.com/awadbilal/portfolio/raw/master/src/locales/images/PORTGIF.gif)
