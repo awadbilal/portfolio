@@ -1,7 +1,8 @@
 # Bilal Avvad Portfolio
 
 This project purpose is to showcase my works in an elegant way, as well as my education certificates, my CV to be downloaded, and the ability to contact me directly using a simple form.
-[View website](https://awadbilal.github.io/portfolio/)
+
+[Visit portfolio website](https://awadbilal.github.io/portfolio/)
 
 ## Preview
 ![Bilal Avvad portfolio](https://github.com/awadbilal/portfolio/raw/master/src/locales/images/PORTGIF.gif)
