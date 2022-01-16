@@ -2,6 +2,9 @@ import BAU from '../../locales/images/BAU.png';
 import RECDD from '../../locales/images/RCDED.png';
 import BAUCER from '../../locales/images/UNI1.jpeg';
 import RECDDCER from '../../locales/images/RECODED-Certificate.png';
+import FCC from '../../locales/images/FCC.jpeg';
+import FCCRWD from '../../locales/images/FCCRWD.png';
+import FCCJS from '../../locales/images/FCCJS.png';
 
 const education = [
   {
@@ -29,6 +32,25 @@ const education = [
       "Netaş agile development",
       "Linear algebra and Discrete mathematics",
       "Probability and Statistics"
+    ]
+  },
+  {
+    title: "Free Code Camp",
+    subText: "Certificate of Completion",
+    image: FCC,
+    beginDate: "01/2022",
+    endDate: "01/2022",
+    duration: "Flexible",
+    certificate: FCCRWD,
+    extra: FCCJS,
+    description: "Free Code Camp is a non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, online publications and local organizations that intend to make learning web development accessible to anyone.",
+    courses: [
+      "HTML5",
+      "CSS3",
+      "Semantic coding",
+      "Responsive web design",
+      "Javascript algorithms",
+      "Data structures"
     ]
   },
   {

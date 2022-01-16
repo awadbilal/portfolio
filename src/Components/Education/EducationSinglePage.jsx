@@ -45,7 +45,17 @@ function EducationSinglePage({ info }) {
       </Row>
       <Row>
         {info.certificate ? (
-          <img data-aos="fade-up" src={info.certificate} alt={info.title} />
+          <img
+            data-aos="fade-up"
+            src={info.certificate}
+            alt={info.title}
+            className={info.extra ? "pb-5" : ""}
+          />
+        ) : (
+          ""
+        )}
+        {info.extra ? (
+          <img data-aos="fade-up" src={info.extra} alt={info.title} />
         ) : (
           ""
         )}
