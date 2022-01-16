@@ -2,7 +2,7 @@ import BAU from '../../locales/images/BAU.png';
 import RECDD from '../../locales/images/RCDED.png';
 import BAUCER from '../../locales/images/UNI1.jpeg';
 import RECDDCER from '../../locales/images/RECODED-Certificate.png';
-import FCC from '../../locales/images/FCC.jpeg';
+import FCC from '../../locales/images/FCC.jpg';
 import FCCRWD from '../../locales/images/FCCRWD.png';
 import FCCJS from '../../locales/images/FCCJS.png';
 
