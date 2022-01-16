@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Bilal Avvad Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project purpose is to showcase my works in an elegant way, as well as my education certificates, my CV to be downloaded, and the ability to contact me directly using a simple form. This website is an upgrade from what i have previously conducted while i was conducting my studies in the bootcamp of front-end web development with Re:Coded
 
-## Available Scripts
+#### [Visit old portfolio website](https://bilalavvad.netlify.app/)
+#### [Visit this updated portfolio website](https://awadbilal.github.io/portfolio/)
 
-In the project directory, you can run:
+## Preview
+![Bilal Avvad portfolio](https://github.com/awadbilal/portfolio/raw/master/src/locales/images/PORTGIF.gif)
 
-### `npm start`
+## Brief introduction
+Portfolio website, designed and inspired after i have seen my colleagues portfolios, as a challenge to myself i started developing this application in January 1st, 2022 and finisehd it by January 6th, 2022. Before developing this project i created an initial design to help me visualize the final outcome, and i am glad about that because now i am satisfied with the final outcome, also it increased my experience a bit, so its a win-win situation. Hope you enjoy your tour!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### React, JavaScript, HTML5, and CSS3 => Project development
+#### [React AOS](https://github.com/michalsnik/aos) => Animations repository
+#### [React Bootstrap](https://react-bootstrap.github.io/) => Responsive styling
+#### [React i18next](https://react.i18next.com/) => Adding multiple Languages
+#### [React EmailJS](https://www.emailjs.com/) => Automated Emails for contact form
+#### [React Router](https://v5.reactrouter.com/web/guides/quick-start)Links switching
+#### [React icons](https://react-icons.github.io/react-icons) => Most of icons/emojis
+#### [React DevIcons](https://fpoumian.github.io/react-devicon/) => Programming languages icons
