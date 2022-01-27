@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { BsArrowReturnRight } from "react-icons/bs";
+import { RiShareCircleLine } from "react-icons/ri";
 import { useTranslation } from "react-i18next";
 import "./style.css";
 
@@ -16,7 +17,7 @@ function SinglePage({ info }) {
         <Col xs={3} sm={3} md={3} lg={3}>
           <p data-aos="fade-left">
             <a href={info.link} target="_blank" rel="noreferrer">
-              Visit Webpage
+              <RiShareCircleLine size="2.5rem" />
             </a>
           </p>
         </Col>
@@ -66,18 +67,18 @@ function SinglePage({ info }) {
         <img data-aos="fade-up" src={info.gif} alt={info.title} />
       </Row>
       {info.imageGroup ? (
-        <Row className="pt-5">
+        <Row className="pt-5 d-flex">
           {info.imageGroup.map((item, i) => {
             return (
               <Col
                 xs={12}
                 sm={12}
-                md={12}
-                lg={12}
-                className={i === info.imageGroup.length - 2 ? "pb-5" : ""}
+                md={6}
+                lg={6}
+                className={`${i !== info.imageGroup.length - 2 ? "pb-5" : "pb-0"} pr-5`}
                 key={`extraImage` + i}
               >
-                <img data-aos="fade-up" src={item} alt={item} />
+                <img data-aos="fade-up" src={item} alt={item} className="borderImg" />
               </Col>
             );
           })}

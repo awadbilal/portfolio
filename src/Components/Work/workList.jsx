@@ -1,3 +1,12 @@
+import SBP from "../../locales/images/SBP.png";
+import SBP1 from "../../locales/images/SBP1.png";
+import SBP2 from "../../locales/images/SBP2.png";
+import SBP3 from "../../locales/images/SBP3.png";
+import SBP4 from "../../locales/images/SBP4.png";
+import SBP5 from "../../locales/images/SBP5.png";
+import SBP6 from "../../locales/images/SBP6.png";
+import SBP7 from "../../locales/images/SBP7.png";
+import SBPGIF from "../../locales/images/SBPGIF.gif";
 import PORT from "../../locales/images/PORT.png";
 import PORTGIF from "../../locales/images/PORTGIF.gif";
 import LL from "../../locales/images/LL.png";
@@ -21,6 +30,28 @@ import BS from "../../locales/images/BS.png";
 import BSGIF from "../../locales/images/BSGIF.gif";
 
 const workList = [
+  {
+    title: 'Splash By Noor UX/UI',
+    date: '01/2022',
+    languages: "Figma / CSS3",
+    image: SBP,
+    description: "A project idea that was inspired after checking my friend instagram page for selling customized products using color painting Hence, the idea came to create a project which will be constructed as an e-commerce website for selling products, and while in the way of creating it, i will also help my friend publish her work on a website where customers can check it more freely. I chose this specific task as a project since it is colorful, lovely, and would look amazing if it were to be implemented, so i started designing the website itself before developing it!",
+    functionalities: [
+      "Responsive design",
+      "Products Display",
+      "Admin Control",
+      "Colorful design",
+      "Research",
+      "Presentation"
+      ],
+    technologies: [
+      "Figma",
+      "CSS3"
+    ],
+    imageGroup: [SBP1, SBP2, SBP3, SBP4, SBP5, SBP6, SBP7],
+    gif: SBPGIF,
+    link: 'https://www.figma.com/file/Gptl0fjE21bzn0GkAOfvlq/Splash-By-Nour-Shop?node-id=0%3A1'
+  },
   {
     title: 'Personal Portfolio',
     date: '01/2022',
