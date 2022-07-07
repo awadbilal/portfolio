@@ -1,3 +1,4 @@
+import SBN from '../../locales/images/SBN.png';
 import SBP from "../../locales/images/SBP.png";
 import SBP1 from "../../locales/images/SBP1.png";
 import SBP2 from "../../locales/images/SBP2.png";
@@ -30,6 +31,45 @@ import BS from "../../locales/images/BS.png";
 import BSGIF from "../../locales/images/BSGIF.gif";
 
 const workList = [
+  {
+    title: 'Splash By Noor',
+    date: '07/2022',
+    languages: "React / JS / HTML5 / SCSS / Figma / Firebase",
+    image: SBN,
+    description: "Splash By Noor 'SBN' is an online platform that provide the ability for its admin to post and edit products online where the admin can receive orders, custom orders, and messages in real-time. The aim of this project was to allow the creativity of a friend who designs and customize various sneakers, bags, hats, accessories and many more.",
+    functionalities: [
+      "Responsive design",
+      "Account sign-up",
+      "Account log-in",
+      "Account history",
+      "Account info",
+      "Hovering images",
+      "Product display",
+      "Cart and checkout pages",
+      "Filtering and Sorting System",
+      "Contact form",
+      "Cloud Database Integration"
+      ],
+    technologies: [
+      "Github",
+      "Github Pages",
+      "Figma",
+      "Google Firebase",
+      "Google Authentication",
+      "Google Storage",
+      "Email JS",
+      "SCSS",
+      "SASS",
+      "React uuid",
+      "React AntDesign",
+      "React Icons",
+      "React Router-dom",
+      "React Jest-testing"
+    ],
+    imageGroup: [SBN],
+    gif: "",
+    link: 'https://awadbilal.github.io/sbn/'
+  },
   {
     title: 'Splash By Noor UX/UI',
     date: '01/2022',
