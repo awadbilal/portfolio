@@ -29,8 +29,128 @@ import ML from "../../locales/images/ML.png";
 import MLGIF from "../../locales/images/MLGGIF.gif";
 import BS from "../../locales/images/BS.png";
 import BSGIF from "../../locales/images/BSGIF.gif";
+import WOD from "../../locales/images/WOD.png";
+import WOD1 from "../../locales/images/WOD1.png";
+import WOD2 from "../../locales/images/WOD2.png";
+import WOD3 from "../../locales/images/WOD3.png";
+import WOD4 from "../../locales/images/WOD4.png";
+import WODGIF from "../../locales/images/WODGIF.gif";
+import WOV from "../../locales/images/WOV.png";
+import WOK from "../../locales/images/WOK.png";
 
 const workList = [
+  {
+    title: 'WesterOps: Shift-Wallet DO-QI',
+    date: 'Present',
+    languages: "React / JS / HTML5 / CSS3 / Figma",
+    image: WOK,
+    description: "DO-QI is an online miniApp platform that will be used in parallel with its parent application Kobil-SuperApp. It provides the ability for its users to link their crypto wallets and followup their cryptocurrency assets along with their NFT collectibles, they can interact, send, and receive various currencies online with a click of a button.",
+    functionalities: [
+      "Importing wallet",
+      "Encrypting/Decrypting information and transfers",
+      "Account sign-up",
+      "Account log-in",
+      "Account history",
+      "Account info",
+      "Ordering Food",
+      "Meals display",
+      "Chef's display",
+      "Payment gate-away",
+      "Filtering and Sorting System",
+      "Contacting Courier / Courier delivery system",
+      "Cloud Database Integration"
+      ],
+    technologies: [
+      "GitLab",
+      "Clockify",
+      "Kobil Jira - Agile Methodologies",
+      "Python - BE",
+      "React uuid",
+      "React Icons",
+      "React router-dom",
+      "React Axios",
+      "Javascript encryption/decryption",
+      "Figma",
+    ],
+    imageGroup: [WOK],
+    gif: "",
+    link: 'https://awadbilal.github.io/portfolio/'
+  },
+  {
+    title: 'WesterOps: VidiEats Mobile',
+    date: '08/2022',
+    languages: "React-Native / JS / CSS3 / Figma / Firebase",
+    image: WOV,
+    description: "VidiEats is an online application that specializes in connecting customers and chefs, customers can order home made food by chefs or restaurant food. The application provides a variety of options to communicate and order online.",
+    functionalities: [
+      "Account sign-up",
+      "Account log-in",
+      "Account history",
+      "Account info",
+      "Ordering Food",
+      "Meals display",
+      "Chef's display",
+      "Payment gate-away",
+      "Filtering and Sorting System",
+      "Contacting Courier / Courier delivery system",
+      "Cloud Database Integration"
+      ],
+    technologies: [
+      "GitLab",
+      "Clockify",
+      "NiftyPM",
+      "Google Firebase",
+      "Apple Developer Terminal",
+      "Google Developer Terminal",
+      "Python - BE",
+      "React-native uuid",
+      "React-native Icons",
+      "React-native Navigation",
+      "React-native Axios",
+      "Figma",
+    ],
+    imageGroup: [WOV],
+    gif: "",
+    link: 'https://apps.apple.com/tr/app/vidieats/id1609941652'
+  },
+  {
+    title: 'WesterOps: Döngü',
+    date: '08/2022',
+    languages: "React / JS / HTML5 / MaterialUi / Figma / Firebase",
+    image: WOD,
+    description: "Döngü is an online platform which actively links restaurants and customers using a singular application. It provides the ability to use 3 categories of users, a customer, a restaurant owner, and a super admin user who can control everything in the app, specifically the list of users, customers, and restaurants.",
+    functionalities: [
+      "Responsive design",
+      "Account sign-up",
+      "Account log-in",
+      "Account history",
+      "Account info",
+      "Ordering Food",
+      "Restaurants display",
+      "Payment gate-away",
+      "Filtering and Sorting System",
+      "Contact form",
+      "Cloud Database Integration"
+      ],
+    technologies: [
+      "GitLab",
+      "Clockify",
+      "NiftyPM",
+      "Google Firebase",
+      "AWS",
+      "Python - BE",
+      "React uuid",
+      "React Material Ui",
+      "React Icons",
+      "React Router-dom",
+      "React Axios",
+      "Figma",
+      "Adobe XD"
+    ],
+    imageGroup: [WOD, WOD1, WOD2, WOD3, WOD4],
+    gif: WODGIF,
+    link: 'https://www.dongu.com/'
+  },
   {
     title: 'Splash By Noor',
     date: '07/2022',
